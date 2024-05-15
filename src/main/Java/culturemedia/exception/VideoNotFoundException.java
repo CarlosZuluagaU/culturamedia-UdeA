@@ -11,3 +11,7 @@ public class VideoNotFoundException extends CultureMediaException {
         super(MessageFormat.format("Video not found: {0}", title));
     }
 }
+
+/**
+ Adding VideoNotFoundException, and correct methos and test
+ */
